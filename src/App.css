@@ -1,0 +1,90 @@
+.content-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.video-list{
+  grid-column: 6/7;
+  margin-top: 3rem;
+  margin-right:3rem;
+}
+
+.video-card{
+  border: 2px solid #666;
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin:.3rem;
+}
+
+.video-card:hover{
+  cursor: pointer;
+  background-color: #e6e6e6;
+}
+
+.video-card img{
+  display: block;
+  margin: 0 auto;
+}
+
+.video-show{
+  grid-column: 1/6;
+}
+
+.video-show iframe{
+  width: 100%;
+  margin-top:1rem;
+  height:90%;
+}
+
+form{
+  width: 100%;
+}
+
+
+.searchbar-div, .searchbtn-div{
+  display: inline-block;
+}
+
+.searchbar-div{
+  width: 50%;
+  margin-left: 15rem;
+  height: 3rem;
+}
+
+.searchbtn-div{
+  width:20%;
+  height: 3rem;
+}
+
+
+.searchbar{
+  display:inline-block;
+  width:100%;
+
+  font-size: 2rem;
+  border-radius: 5px;
+  margin-top:10px;
+}
+
+.searchbtn{
+  display: inline-block;
+  padding-top:.5rem;
+  font-size:1.5rem;
+  padding-bottom:.25rem;
+  width:100%;
+  border-radius:5px;
+  background-color:#eee;
+}
+
+.channelName{
+  background-color:#e52020;
+  float:right;
+  margin-right:2rem;
+  padding:.75rem;
+  color:#f4f4f4;
+}
+
+.description{
+  margin-top:4rem;
+}
